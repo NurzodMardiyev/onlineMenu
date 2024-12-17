@@ -58,6 +58,9 @@ border: none;
 input::placeholder, textarea::placeholder {
   color: #9e9e9e !important;
 }
+input {
+  height: 42px !important;
+}
 textarea {
   resize: none !important;
 }
