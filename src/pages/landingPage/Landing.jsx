@@ -6,6 +6,7 @@ import "../../App.css";
 import gsap from "gsap";
 import { TextPlugin } from "gsap/TextPlugin";
 import { useEffect, useRef } from "react";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 export default function Landing() {
   const textRef = useRef(null);
@@ -42,6 +43,11 @@ export default function Landing() {
       timeline.kill(); // Komponent unmount bo'lganda animatsiyani tozalash
     };
   }, [texts]);
+
+  const navigate = useNavigate();
+  const toDashboard = () => {
+    navigate("dashboard");
+  };
   return (
     <div className="bg-gray-400 w-full h-screen landing">
       <div className="overlay bg-[#0000006a]">
@@ -57,7 +63,11 @@ export default function Landing() {
             </div>
           </div>
           <div className="">
-            <Button type="submit" className="w-full h-[42px] btn ">
+            <Button
+              onClick={toDashboard}
+              type="submit"
+              className="w-full h-[42px] btn "
+            >
               Davom etish
             </Button>
           </div>
