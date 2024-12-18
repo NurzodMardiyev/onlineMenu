@@ -46,10 +46,10 @@ body {
 :where(.css-dev-only-do-not-override-1kf000u).ant-input-outlined  {
 border: none;
 }
-:where(.css-dev-only-do-not-override-1kf000u).ant-input-outlined.ant-input-status-error:not(.ant-input-disabled) {
+html :where(.css-dev-only-do-not-override-1kf000u).ant-input-outlined.ant-input-status-error:not(.ant-input-disabled) {
   background: #374151 !important
 }
-:where(.css-dev-only-do-not-override-1kf000u).ant-input-outlined:hover, :where(.css-dev-only-do-not-override-1kf000u).ant-input-outlined ,:where(.css-dev-only-do-not-override-1kf000u).ant-input-outlined:focus-within {
+html :where(.css-dev-only-do-not-override-1kf000u).ant-input-outlined:hover, :where(.css-dev-only-do-not-override-1kf000u).ant-input-outlined ,:where(.css-dev-only-do-not-override-1kf000u).ant-input-outlined:focus-within {
   background: var(--inputBackground);
   border: none;
   color: #fff;
