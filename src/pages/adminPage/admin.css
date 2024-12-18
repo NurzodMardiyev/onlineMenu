@@ -1,0 +1,54 @@
+.summ > .sumBtn:last-child {
+  border: none !important;
+}
+.sumBtn {
+  padding: 15px 15px !important;
+  display: flex !important ;
+  gap: 16px;
+  border-bottom: 0.5px solid #565656 !important;
+  text-transform: none !important;
+}
+.css-6vxf02-MuiButtonBase-root-MuiFab-root {
+  width: 40px !important;
+  height: 40px !important;
+  font-size: 12px !important;
+}
+#hour {
+  padding: 0 15px !important;
+}
+#hour button {
+  color: #fff !important;
+}
+.css-1ll44ll-MuiOutlinedInput-notchedOutline {
+  border: 1px solid #fff !important;
+}
+.soat {
+  width: 100px !important;
+}
+:where(.css-dev-only-do-not-override-1kf000u).ant-picker-outlined,
+:where(.css-dev-only-do-not-override-1kf000u).ant-picker-dropdown
+  .ant-picker-panel,
+:where(.css-dev-only-do-not-override-1kf000u).ant-picker-dropdown
+  .ant-picker-footer {
+  background: #111827 !important;
+}
+:where(.css-dev-only-do-not-override-1kf000u).ant-picker-dropdown
+  .ant-picker-time-panel-column
+  > li.ant-picker-time-panel-cell
+  .ant-picker-time-panel-cell-inner,
+:where(.css-dev-only-do-not-override-1kf000u)[class^="ant-picker"]
+  [class^="ant-picker"],
+:where(.css-dev-only-do-not-override-1kf000u)[class*=" ant-picker"]
+  [class^="ant-picker"] {
+  color: #e6f4ff;
+}
+:where(.css-dev-only-do-not-override-1kf000u).ant-picker-dropdown
+  .ant-picker-time-panel-column
+  > li.ant-picker-time-panel-cell-selected
+  .ant-picker-time-panel-cell-inner,
+:where(.css-dev-only-do-not-override-1kf000u).ant-picker-dropdown
+  .ant-picker-time-panel-column
+  > li.ant-picker-time-panel-cell
+  .ant-picker-time-panel-cell-inner:hover {
+  background: #2c3748;
+}

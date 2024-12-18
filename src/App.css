@@ -73,3 +73,7 @@ textarea {
   height: 150px;
   text-transform: none !important;
 }
+:where(.css-dev-only-do-not-override-1kf000u).ant-drawer .ant-drawer-content  {
+  background: var(--background-color) !important;
+  color: #fff !important
+}
