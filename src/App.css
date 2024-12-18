@@ -46,10 +46,10 @@ body {
 :where(.css-dev-only-do-not-override-1kf000u).ant-input-outlined  {
 border: none;
 }
-html :where(.css-dev-only-do-not-override-1kf000u).ant-input-outlined.ant-input-status-error:not(.ant-input-disabled) {
+:global(:where(.css-dev-only-do-not-override-1kf000u).ant-input-outlined.ant-input-status-error:not(.ant-input-disabled)) {
   background: #374151 !important
 }
-html :where(.css-dev-only-do-not-override-1kf000u).ant-input-outlined:hover, :where(.css-dev-only-do-not-override-1kf000u).ant-input-outlined ,:where(.css-dev-only-do-not-override-1kf000u).ant-input-outlined:focus-within {
+html :where(.css-dev-only-do-not-override-1kf000u).ant-input-outlined:hover,html :where(.css-dev-only-do-not-override-1kf000u).ant-input-outlined ,html :where(.css-dev-only-do-not-override-1kf000u).ant-input-outlined:focus-within {
   background: var(--inputBackground);
   border: none;
   color: #fff;
@@ -73,7 +73,7 @@ textarea {
   height: 150px;
   text-transform: none !important;
 }
-html :where(.css-dev-only-do-not-override-1kf000u).ant-drawer .ant-drawer-content  {
+:global(:where(.css-dev-only-do-not-override-1kf000u).ant-drawer .ant-drawer-content)  {
   background: var(--background-color) !important;
   color: #fff !important;
   border-top-left-radius: 20px;
