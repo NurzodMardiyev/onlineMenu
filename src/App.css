@@ -73,7 +73,9 @@ textarea {
   height: 150px;
   text-transform: none !important;
 }
-:where(.css-dev-only-do-not-override-1kf000u).ant-drawer .ant-drawer-content  {
+html :where(.css-dev-only-do-not-override-1kf000u).ant-drawer .ant-drawer-content  {
   background: var(--background-color) !important;
-  color: #fff !important
+  color: #fff !important;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
