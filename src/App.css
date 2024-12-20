@@ -43,12 +43,10 @@ body {
 html body :where(.css-dev-only-do-not-override-1kf000u).ant-input-outlined {
   border: none;
 }
-:global(
-    html
-      :where(
-        .css-dev-only-do-not-override-1kf000u
-      ).ant-input-outlined.ant-input-status-error:not(.ant-input-disabled)
-  ) {
+html
+  :where(
+    .css-dev-only-do-not-override-1kf000u
+  ).ant-input-outlined.ant-input-status-error:not(.ant-input-disabled) {
   background: #374151 !important;
 }
 html :where(.css-dev-only-do-not-override-1kf000u).ant-input-outlined:hover,
@@ -85,11 +83,10 @@ html
   height: 150px;
   text-transform: none !important;
 }
-:global(
-    html
-      :where(.css-dev-only-do-not-override-1kf000u).ant-drawer
-      .ant-drawer-content
-  ) {
+
+html
+  :where(.css-dev-only-do-not-override-1kf000u).ant-drawer
+  .ant-drawer-content {
   background: var(--background-color) !important;
   color: #fff !important;
   border-top-left-radius: 20px;
