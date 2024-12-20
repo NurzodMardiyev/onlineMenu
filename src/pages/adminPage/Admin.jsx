@@ -373,9 +373,11 @@ export default function Admin() {
             </Button>
           </div>
           <div className="w-full flex">
-            <Button type="submit" className="w-full btn">
-              Saqlash
-            </Button>
+            <Link to="/edit_category" className="w-full">
+              <Button type="submit" className="w-full btn">
+                Saqlash
+              </Button>
+            </Link>
           </div>
         </Form>
       </div>
