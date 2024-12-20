@@ -1,15 +1,19 @@
 import { Route, Routes } from "react-router-dom";
-import Landing from "./pages/landingPage/Landing";
 import Admin from "./pages/adminPage/Admin";
 import Services from "./components/Services";
+import AuthPage from "./pages/authPage/AuthPage";
+import LandingPage from "./pages/landingPage/LandingPage";
+import EditCategories from "./components/EditCategories";
 
 function App() {
   return (
     <div>
       <Routes>
-        <Route path="" element={<Landing />} />
+        <Route path="" element={<AuthPage />} />
         <Route path="dashboard" element={<Admin />} />
         <Route path="services" element={<Services />} />
+        <Route path="landing" element={<LandingPage />} />
+        <Route path="edit_category" element={<EditCategories />} />
       </Routes>
     </div>
   );

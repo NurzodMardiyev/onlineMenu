@@ -45,7 +45,7 @@ export default function Services() {
   ];
   return (
     <div>
-      <div className="container max-w-[420px] mx-auto px-4 py-10 text-white flex flex-col justify-between h-screen ">
+      <div className="container max-w-[420px] mx-auto px-4 pb-10 pt-4 text-white flex flex-col justify-between h-screen ">
         <div className="">
           <div className="flex items-end gap-4 mb-4">
             <Link to="/dashboard">

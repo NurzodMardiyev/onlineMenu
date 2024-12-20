@@ -1,12 +1,26 @@
 .summ > .sumBtn:last-child {
   border: none !important;
 }
+
+.summ > .cat:last-child {
+  border: none !important;
+}
+
 .sumBtn {
   padding: 15px 15px !important;
   display: flex !important ;
   gap: 16px;
   border-bottom: 0.5px solid #565656 !important;
   text-transform: none !important;
+}
+.cat {
+  display: flex !important ;
+  gap: 16px;
+  border-bottom: 0.5px solid #565656 !important;
+  text-transform: none !important;
+}
+.cat .cate {
+  padding: 10px 15px !important;
 }
 .css-6vxf02-MuiButtonBase-root-MuiFab-root {
   width: 40px !important;

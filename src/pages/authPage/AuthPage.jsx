@@ -1,6 +1,6 @@
 import { Form } from "antd";
 import { Button } from "@mui/material";
-import "./landing.css";
+import "./auth.css";
 import "../../App.css";
 // import { Button } from "aceternity-ui";
 import gsap from "gsap";
@@ -8,7 +8,7 @@ import { TextPlugin } from "gsap/TextPlugin";
 import { useEffect, useRef } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 
-export default function Landing() {
+export default function AuthPage() {
   const textRef = useRef(null);
   // Matn qismlari
   const texts = [
