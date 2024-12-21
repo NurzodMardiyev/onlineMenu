@@ -40,17 +40,16 @@ body {
   font-style: normal;
   text-transform: none !important;
 }
-html body :where(.css-dev-only-do-not-override-1kf000u).ant-input-outlined {
+html body .css-dev-only-do-not-override-1kf000u.ant-input-outlined {
   border: none;
 }
 html
-  :where(
-    .css-dev-only-do-not-override-1kf000u
-  ).ant-input-outlined.ant-input-status-error:not(.ant-input-disabled) {
+  .css-dev-only-do-not-override-1kf000u
+  .ant-input-outlined.ant-input-status-error:not(.ant-input-disabled) {
   background: #374151 !important;
 }
-html :where(.css-dev-only-do-not-override-1kf000u).ant-input-outlined:hover,
-html :where(.css-dev-only-do-not-override-1kf000u).ant-input-outlined,
+html .css-dev-only-do-not-override-1kf000u.ant-input-outlined:hover,
+html .css-dev-only-do-not-override-1kf000u.ant-input-outlined,
 html
   :where(
     .css-dev-only-do-not-override-1kf000u
