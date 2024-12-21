@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { Button } from "@mui/material";
 import { IoArrowBackOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
@@ -47,11 +48,6 @@ const DraggableItem = ({ item, index, moveItem }) => {
   );
 };
 export default function EditCategories() {
-  const categories = [
-    { id: 0, name: "Ichimlik", count: 2, path: "/id" },
-    { id: 1, name: "Ovqat", count: 1, path: "/id" },
-    { id: 2, name: "Salat", count: 0, path: "/id" },
-  ];
   const [items, setItems] = useState([
     { id: "1", content: "Ichimlik", count: 1, path: "/id" },
     { id: "2", content: "Salat", count: 1, path: "/id" },
