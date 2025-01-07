@@ -1,4 +1,5 @@
-import { Form } from "antd";
+/* eslint-disable react-hooks/exhaustive-deps */
+// import { Form } from "antd";
 import { Button } from "@mui/material";
 import "./auth.css";
 import "../../App.css";
@@ -6,7 +7,7 @@ import "../../App.css";
 import gsap from "gsap";
 import { TextPlugin } from "gsap/TextPlugin";
 import { useEffect, useRef } from "react";
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function AuthPage() {
   const textRef = useRef(null);
@@ -66,7 +67,7 @@ export default function AuthPage() {
             <Button
               onClick={toDashboard}
               type="submit"
-              className="w-full h-[42px] btn "
+              className="w-full h-[42px] btn"
             >
               Davom etish
             </Button>
